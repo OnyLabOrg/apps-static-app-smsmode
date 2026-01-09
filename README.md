@@ -1,1 +1,1 @@
-# -apps-smsmode-static-app
+# apps-static-app-smsmode
