@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>OnyLab Apps</title>
+  <link href="/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+  <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="/favicon.ico" rel="shortcut icon"/>
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <meta content="OnyLab Apps" name="apple-mobile-web-app-title"/>
+  <link href="/site.webmanifest" rel="manifest"/>
+  <link href="/loader.css" rel="stylesheet" type="text/css"/>
+  <script type="module" crossorigin src="/assets/index-B4trpNpq.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B9eVAjhV.css">
+</head>
+<body>
+<div id="app">
+  <div id="loading-bg">
+    <div class="loading-logo">
+      <img alt="Logo" src="/images/logo.svg" width="150px"/>
+    </div>
+    <div class=" loading">
+      <div class="effect-1 effects"></div>
+      <div class="effect-2 effects"></div>
+      <div class="effect-3 effects"></div>
+    </div>
+  </div>
+</div>
+<script>
+  const loaderColor = localStorage.getItem('app-initial-loader-bg') || '#FFFFFF'
+  const primaryColor = localStorage.getItem('app-initial-loader-color') || '#696CFF'
+
+  if (loaderColor)
+    document.documentElement.style.setProperty('--initial-loader-bg', loaderColor)
+
+  if (primaryColor)
+    document.documentElement.style.setProperty('--initial-loader-color', primaryColor)
+</script>
+</body>
+
+</html>
