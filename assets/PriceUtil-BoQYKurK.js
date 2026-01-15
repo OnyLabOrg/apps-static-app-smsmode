@@ -1,1 +1,0 @@
-import{dM as n}from"./index-DfJhTF3D.js";const s=e=>{if(e==null)return"";const r=Object.keys(n),o=new RegExp(`\\b(${r.join("|")}| ${r.join("| ")})\\b`,"g");return e.replace(o,t=>n[t.replace(" ","")]).replaceAll(".00 ","")};export{s as d};
