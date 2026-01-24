@@ -1,0 +1,1 @@
+import{d2 as l}from"./index-9shWMfiu.js";const i=(e,n=!1,r=!1)=>{if(e==null)return"";const o=Object.keys(l),t=`${o.join("|")}${n?`| ${o.join("| ")}`:""}`,c=new RegExp(`\\b(${t})\\b`,"g"),s=e.replace(c,a=>l[a.replace(" ","")]);return r?s.replaceAll(".00",""):s};export{i as d};
