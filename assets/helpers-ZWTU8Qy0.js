@@ -1,0 +1,1 @@
+const t=r=>r==null||r===""?!0:!!(Array.isArray(r)&&r.length===0),n=r=>r==null,s=r=>Array.isArray(r)&&r.length===0,i=r=>r!==null&&!!r&&typeof r=="object"&&!Array.isArray(r);export{s as a,t as b,i as c,n as i};
