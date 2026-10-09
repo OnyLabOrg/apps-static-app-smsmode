@@ -1,1 +1,0 @@
-import{cV as c}from"./index-C2aGSU4P.js";const i=(e,l=!1,n=!1)=>{if(e==null)return"";const o=Object.keys(c),r=`${o.join("|")}${l?`| ${o.join("| ")}`:""}`,t=new RegExp(`\\b(${r})\\b`,"g"),s=e.replace(t,a=>c[a.replace(" ","")]);return n?s.replaceAll(".00",""):s};export{i as d};
