@@ -3,7 +3,12 @@
 <head>
   <meta content="0; url=/" http-equiv="refresh">
   <title>Redirection</title>
-  <script>window.location.href = "/"</script>
+  <script>
+    // The static host only serves index.html at the root: any other app path, such as a reloaded page, lands here.
+    // The path is remembered for restoreRedirectedPath (src/utils/RedirectUtil.ts), which brings the app back to it.
+    sessionStorage.setItem('redirectedPath', window.location.pathname + window.location.search + window.location.hash);
+    window.location.replace('/');
+  </script>
 </head>
 <body>
 </body>
